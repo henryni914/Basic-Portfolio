@@ -1,0 +1,87 @@
+body {
+   background-color: silver;
+}
+
+.banner {
+    background-color: white;
+    height: 60px;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 960px;
+    font-size: 24px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-1 {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+}
+
+#contact,
+#portfolio,
+#about {
+    color: gray;
+    position: relative;
+    float: right;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+  }
+
+.banner-2 {
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.middle {
+    width: 940px;
+    margin: 0 auto;
+}
+.header-2  {
+     font-size: 24px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     margin:0;
+     text-align: left;
+     color: #4aaaa5;
+     padding: 20px;
+ }
+
+hr {
+    margin: 0 auto;
+}
+
+img {
+    float: left;
+    padding: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+     margin: 0 auto;
+     padding: 20px;
+}
