@@ -1,61 +1,46 @@
 body {
-   background-color: slategray;
+    background-color: slategrey;
+    margin: 0px;
 }
-
 .banner {
     background-color: white;
     height: 60px;
-    margin: 0;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
+    position: relative;
+    margin-top: -8px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 .container {
     width: 960px;
     margin: 0 auto;
-    position: relative;
+    background-color:white;
+    height: 60px;
 }
 
-h1, h2 {
-    width: 960px;
-    font-size: 24px; 
+header {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-.header-1 {
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
     background-color: #4aaaa5;
     color: white;
-    width: 200px;
-    height: 45px;
-    text-align: center;
-    margin: 0;
-    padding-top: 15px;
+    float: left;
+    padding: 16.5px;
+    font-size: 24px;   
 }
 
-#about,
-#portfolio,
-#contact {
-    color: gray;
+a {
     float: right;
-    position: relative;
-    top: 0;
-    right: 0;
-    padding: 10px;
-    margin: 10px;
+    color: grey;
+    padding: 18px;
 }
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
 .banner-2 {
     background-color: white;
     width: 960px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .middle {
