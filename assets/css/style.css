@@ -81,3 +81,31 @@ p {
 #copyright {
     text-align: center;
 }
+
+.container-2 {
+    position: relative;
+    float: left;
+}
+
+.project1 {
+    position: absolute;
+    bottom: 38px;
+    margin-left: 85px;
+    background-color: #4aaaa5;
+}
+.container-3 {
+    position: relative;
+    float:left;
+}
+
+.project2 {
+    position: absolute;
+    bottom: 38px;
+    margin-left: 85px;
+    background-color: #4aaaa5;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
