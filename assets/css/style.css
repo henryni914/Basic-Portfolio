@@ -18,9 +18,6 @@ body {
     height: 60px;
 }
 
-header {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif; 
     background-color: #4aaaa5;
@@ -34,13 +31,14 @@ a {
     float: right;
     color: grey;
     padding: 18px;
+    text-decoration: none;
 }
 
 .banner-2 {
     background-color: white;
     width: 960px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .middle {
@@ -54,7 +52,7 @@ a {
      text-align: left;
      color: #4aaaa5;
      padding: 15px;
- }
+}
 
 hr {
     margin: 0 auto;
@@ -73,7 +71,7 @@ p {
 
 .footer {
     background-color: #666666;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
