@@ -18,15 +18,13 @@ body {
     position: relative;
 }
 
-.header {
+h1, h2 {
     width: 960px;
     font-size: 24px; 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header-1 {
-    font-size: 24px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     color: white;
     width: 200px;
@@ -40,14 +38,12 @@ body {
 #portfolio,
 #contact {
     color: gray;
-    position: relative;
     float: right;
-    /*
+    position: relative;
     top: 0;
     right: 0;
-    margin: 0;
-    */
     padding: 10px;
+    margin: 10px;
 }
 
 .clearfix::after {
